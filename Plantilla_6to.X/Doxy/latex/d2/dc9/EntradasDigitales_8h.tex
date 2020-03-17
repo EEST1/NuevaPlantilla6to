@@ -1,0 +1,268 @@
+\hypertarget{EntradasDigitales_8h}{}\section{Referencia del Archivo inc/\+Entradas\+Digitales.h}
+\label{EntradasDigitales_8h}\index{inc/\+Entradas\+Digitales.\+h@{inc/\+Entradas\+Digitales.\+h}}
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para Entradas\+Digitales.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{df/df5/EntradasDigitales_8h__incl}
+\end{center}
+\end{figure}
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d56/EntradasDigitales_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{EntradasDigitales_8h_ae25ec654c4dabac685454a7263985649}{E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO}~10
+\begin{DoxyCompactList}\small\item\em cantidad de veces que deve contar para validar el estado \end{DoxyCompactList}\item 
+\#define \hyperlink{EntradasDigitales_8h_a31160dcd18f4f23a10b24c17fd7d0081}{E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS}~4
+\begin{DoxyCompactList}\small\item\em cantidad de entradas \end{DoxyCompactList}\item 
+\#define \hyperlink{EntradasDigitales_8h_a63fb786778d627ac652386fea3980b26}{E\+D\+\_\+\+T\+IC}~1
+\item 
+\#define \hyperlink{EntradasDigitales_8h_a4dfc73e8376485479b6d2250a0446da2}{E\+D\+\_\+\+T\+E\+C\+L\+A0}~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas}) \& 0x01)
+\begin{DoxyCompactList}\small\item\em macros para las teclas de entrada \end{DoxyCompactList}\item 
+\#define \hyperlink{EntradasDigitales_8h_accbf3ae157416e23f1142534ee302b93}{E\+D\+\_\+\+T\+E\+C\+L\+A1}~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 1) \& 0x01)
+\begin{DoxyCompactList}\small\item\em macros para las teclas de entrada \end{DoxyCompactList}\item 
+\#define \hyperlink{EntradasDigitales_8h_acf90b94c3ed6506779f0870b596196be}{E\+D\+\_\+\+T\+E\+C\+L\+A2}~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 2) \& 0x01)
+\begin{DoxyCompactList}\small\item\em macros para las teclas de entrada \end{DoxyCompactList}\item 
+\#define \hyperlink{EntradasDigitales_8h_ad0a2f09b98b2d52f04e698c4ec7252b6}{E\+D\+\_\+\+T\+E\+C\+L\+A3}~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 3) \& 0x01)
+\begin{DoxyCompactList}\small\item\em macros para las teclas de entrada \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{EntradasDigitales_8h_a4a160ca6fd77d23f27dd9b6af1b3a35e}{E\+D\+\_\+\+Cuenta\+Pulsos} (void)
+\begin{DoxyCompactList}\small\item\em Funcion primitiva de entradas digitales. \end{DoxyCompactList}\item 
+void \hyperlink{EntradasDigitales_8h_aae3299a4d1a16965cb68fdb0dfe20a2a}{E\+D\+\_\+\+Debounce} (void)
+\begin{DoxyCompactList}\small\item\em Funcion para el debounce de las entradas digitales. \end{DoxyCompactList}\item 
+void \hyperlink{EntradasDigitales_8h_a37cb4f85d5ecd1e06ebee2aff2cea677}{E\+D\+\_\+\+Tic} (void)
+\begin{DoxyCompactList}\small\item\em Funcion para el debounce de las entradas digitales. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EntradasDigitales_8h_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas}
+\begin{DoxyCompactList}\small\item\em aca por cada bit me indica el estado de una tecla \end{DoxyCompactList}\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EntradasDigitales_8h_a85bf28760a0b8f0d354faa8e0560a4f8}{E\+D\+\_\+\+Delay}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{EntradasDigitales_8h_ae25ec654c4dabac685454a7263985649}\label{EntradasDigitales_8h_ae25ec654c4dabac685454a7263985649}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO@{E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO}}
+\index{E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO@{E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO}{ED\_ACEPTAR\_ESTADO}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+A\+C\+E\+P\+T\+A\+R\+\_\+\+E\+S\+T\+A\+DO~10}
+
+
+
+cantidad de veces que deve contar para validar el estado 
+
+
+
+Definición en la línea 54 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_a31160dcd18f4f23a10b24c17fd7d0081}\label{EntradasDigitales_8h_a31160dcd18f4f23a10b24c17fd7d0081}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS@{E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS}}
+\index{E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS@{E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS}{ED\_ENTRADAS}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+E\+N\+T\+R\+A\+D\+AS~4}
+
+
+
+cantidad de entradas 
+
+
+
+Definición en la línea 55 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_a4dfc73e8376485479b6d2250a0446da2}\label{EntradasDigitales_8h_a4dfc73e8376485479b6d2250a0446da2}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+T\+E\+C\+L\+A0@{E\+D\+\_\+\+T\+E\+C\+L\+A0}}
+\index{E\+D\+\_\+\+T\+E\+C\+L\+A0@{E\+D\+\_\+\+T\+E\+C\+L\+A0}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+T\+E\+C\+L\+A0}{ED\_TECLA0}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+T\+E\+C\+L\+A0~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas}) \& 0x01)}
+
+
+
+macros para las teclas de entrada 
+
+
+
+Definición en la línea 58 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_accbf3ae157416e23f1142534ee302b93}\label{EntradasDigitales_8h_accbf3ae157416e23f1142534ee302b93}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+T\+E\+C\+L\+A1@{E\+D\+\_\+\+T\+E\+C\+L\+A1}}
+\index{E\+D\+\_\+\+T\+E\+C\+L\+A1@{E\+D\+\_\+\+T\+E\+C\+L\+A1}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+T\+E\+C\+L\+A1}{ED\_TECLA1}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+T\+E\+C\+L\+A1~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 1) \& 0x01)}
+
+
+
+macros para las teclas de entrada 
+
+
+
+Definición en la línea 59 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_acf90b94c3ed6506779f0870b596196be}\label{EntradasDigitales_8h_acf90b94c3ed6506779f0870b596196be}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+T\+E\+C\+L\+A2@{E\+D\+\_\+\+T\+E\+C\+L\+A2}}
+\index{E\+D\+\_\+\+T\+E\+C\+L\+A2@{E\+D\+\_\+\+T\+E\+C\+L\+A2}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+T\+E\+C\+L\+A2}{ED\_TECLA2}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+T\+E\+C\+L\+A2~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 2) \& 0x01)}
+
+
+
+macros para las teclas de entrada 
+
+
+
+Definición en la línea 60 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_ad0a2f09b98b2d52f04e698c4ec7252b6}\label{EntradasDigitales_8h_ad0a2f09b98b2d52f04e698c4ec7252b6}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+T\+E\+C\+L\+A3@{E\+D\+\_\+\+T\+E\+C\+L\+A3}}
+\index{E\+D\+\_\+\+T\+E\+C\+L\+A3@{E\+D\+\_\+\+T\+E\+C\+L\+A3}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+T\+E\+C\+L\+A3}{ED\_TECLA3}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+T\+E\+C\+L\+A3~(\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t})((\hyperlink{PR__EntradasDigitales_8c_a563d13d1151e7bc19b8c505ac9d4a33e}{E\+D\+\_\+\+Buffer\+Entradas} $>$$>$ 3) \& 0x01)}
+
+
+
+macros para las teclas de entrada 
+
+
+
+Definición en la línea 61 del archivo Entradas\+Digitales.\+h.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_a63fb786778d627ac652386fea3980b26}\label{EntradasDigitales_8h_a63fb786778d627ac652386fea3980b26}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+T\+IC@{E\+D\+\_\+\+T\+IC}}
+\index{E\+D\+\_\+\+T\+IC@{E\+D\+\_\+\+T\+IC}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+T\+IC}{ED\_TIC}}
+{\footnotesize\ttfamily \#define E\+D\+\_\+\+T\+IC~1}
+
+
+
+Definición en la línea 56 del archivo Entradas\+Digitales.\+h.
+
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{EntradasDigitales_8h_a4a160ca6fd77d23f27dd9b6af1b3a35e}\label{EntradasDigitales_8h_a4a160ca6fd77d23f27dd9b6af1b3a35e}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+Cuenta\+Pulsos@{E\+D\+\_\+\+Cuenta\+Pulsos}}
+\index{E\+D\+\_\+\+Cuenta\+Pulsos@{E\+D\+\_\+\+Cuenta\+Pulsos}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+Cuenta\+Pulsos()}{ED\_CuentaPulsos()}}
+{\footnotesize\ttfamily void E\+D\+\_\+\+Cuenta\+Pulsos (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Funcion primitiva de entradas digitales. 
+
+\begin{DoxyAuthor}{Autor}
+Nicolas Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+30 de septiembre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+Definición en la línea 94 del archivo P\+R\+\_\+\+Entradas\+Digitales.\+c.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_aae3299a4d1a16965cb68fdb0dfe20a2a}\label{EntradasDigitales_8h_aae3299a4d1a16965cb68fdb0dfe20a2a}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+Debounce@{E\+D\+\_\+\+Debounce}}
+\index{E\+D\+\_\+\+Debounce@{E\+D\+\_\+\+Debounce}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+Debounce()}{ED\_Debounce()}}
+{\footnotesize\ttfamily void E\+D\+\_\+\+Debounce (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Funcion para el debounce de las entradas digitales. 
+
+\begin{DoxyAuthor}{Autor}
+Nicolas Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+30 de septiembre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+Definición en la línea 94 del archivo F\+W\+\_\+\+Entradas\+Digitales.\+c.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_a37cb4f85d5ecd1e06ebee2aff2cea677}\label{EntradasDigitales_8h_a37cb4f85d5ecd1e06ebee2aff2cea677}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+Tic@{E\+D\+\_\+\+Tic}}
+\index{E\+D\+\_\+\+Tic@{E\+D\+\_\+\+Tic}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+Tic()}{ED\_Tic()}}
+{\footnotesize\ttfamily void E\+D\+\_\+\+Tic (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Funcion para el debounce de las entradas digitales. 
+
+\begin{DoxyAuthor}{Autor}
+Nicolas Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+30 de septiembre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+Definición en la línea 151 del archivo F\+W\+\_\+\+Entradas\+Digitales.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{EntradasDigitales_8h_a563d13d1151e7bc19b8c505ac9d4a33e}\label{EntradasDigitales_8h_a563d13d1151e7bc19b8c505ac9d4a33e}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+Buffer\+Entradas@{E\+D\+\_\+\+Buffer\+Entradas}}
+\index{E\+D\+\_\+\+Buffer\+Entradas@{E\+D\+\_\+\+Buffer\+Entradas}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+Buffer\+Entradas}{ED\_BufferEntradas}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+\_\+\+Buffer\+Entradas}
+
+
+
+aca por cada bit me indica el estado de una tecla 
+
+
+
+Definición en la línea 66 del archivo P\+R\+\_\+\+Entradas\+Digitales.\+c.
+
+\mbox{\Hypertarget{EntradasDigitales_8h_a85bf28760a0b8f0d354faa8e0560a4f8}\label{EntradasDigitales_8h_a85bf28760a0b8f0d354faa8e0560a4f8}} 
+\index{Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}!E\+D\+\_\+\+Delay@{E\+D\+\_\+\+Delay}}
+\index{E\+D\+\_\+\+Delay@{E\+D\+\_\+\+Delay}!Entradas\+Digitales.\+h@{Entradas\+Digitales.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+\_\+\+Delay}{ED\_Delay}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+\_\+\+Delay}
+
+
+
+Definición en la línea 66 del archivo F\+W\+\_\+\+Entradas\+Digitales.\+c.
+

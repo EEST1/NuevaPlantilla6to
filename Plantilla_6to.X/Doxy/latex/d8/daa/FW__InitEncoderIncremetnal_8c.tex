@@ -1,0 +1,80 @@
+\hypertarget{FW__InitEncoderIncremetnal_8c}{}\section{Referencia del Archivo Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Encoder\+Incremetnal.c}
+\label{FW__InitEncoderIncremetnal_8c}\index{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Encoder\+Incremental.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{df/d6c/FW__InitEncoderIncremetnal_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{FW__InitEncoderIncremetnal_8c_a1f92e3491d1d96007589f41b5eb03fe7}{E\+D\+E\+R\+\_\+\+Init} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} set\+M\+AX, \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} set\+Min)
+\begin{DoxyCompactList}\small\item\em Funcion necesaria para inicializar el encoder, en la misma se define el rango del encoder. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitEncoderIncremetnal_8c_acba4a26c0330eb8f52158e306351fd67}{E\+D\+E\+R\+\_\+\+Maximo} = 0
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitEncoderIncremetnal_8c_a60645d94d942d68dd1c4a5d039df5860}{E\+D\+E\+R\+\_\+\+Minimo} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{FW__InitEncoderIncremetnal_8c_a1f92e3491d1d96007589f41b5eb03fe7}\label{FW__InitEncoderIncremetnal_8c_a1f92e3491d1d96007589f41b5eb03fe7}} 
+\index{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}!E\+D\+E\+R\+\_\+\+Init@{E\+D\+E\+R\+\_\+\+Init}}
+\index{E\+D\+E\+R\+\_\+\+Init@{E\+D\+E\+R\+\_\+\+Init}!F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Init()}{EDER\_Init()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{set\+M\+AX,  }\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{set\+Min }\end{DoxyParamCaption})}
+
+
+
+Funcion necesaria para inicializar el encoder, en la misma se define el rango del encoder. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em set\+M\+AX} & necesario para definir la posicion maxima \\
+\hline
+\mbox{\tt in}  & {\em set\+Min} & necesario para definir la posicion minima \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 93 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{FW__InitEncoderIncremetnal_8c_acba4a26c0330eb8f52158e306351fd67}\label{FW__InitEncoderIncremetnal_8c_acba4a26c0330eb8f52158e306351fd67}} 
+\index{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}!E\+D\+E\+R\+\_\+\+Maximo@{E\+D\+E\+R\+\_\+\+Maximo}}
+\index{E\+D\+E\+R\+\_\+\+Maximo@{E\+D\+E\+R\+\_\+\+Maximo}!F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Maximo}{EDER\_Maximo}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Maximo = 0}
+
+
+
+Definición en la línea 68 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+
+\mbox{\Hypertarget{FW__InitEncoderIncremetnal_8c_a60645d94d942d68dd1c4a5d039df5860}\label{FW__InitEncoderIncremetnal_8c_a60645d94d942d68dd1c4a5d039df5860}} 
+\index{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}!E\+D\+E\+R\+\_\+\+Minimo@{E\+D\+E\+R\+\_\+\+Minimo}}
+\index{E\+D\+E\+R\+\_\+\+Minimo@{E\+D\+E\+R\+\_\+\+Minimo}!F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c@{F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Minimo}{EDER\_Minimo}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Minimo = 0}
+
+
+
+Definición en la línea 69 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+

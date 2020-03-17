@@ -1,0 +1,286 @@
+\hypertarget{EncoderIncremental_8h}{}\section{Referencia del Archivo inc/\+Encoder\+Incremental.h}
+\label{EncoderIncremental_8h}\index{inc/\+Encoder\+Incremental.\+h@{inc/\+Encoder\+Incremental.\+h}}
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para Encoder\+Incremental.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{dd/d6c/EncoderIncremental_8h__incl}
+\end{center}
+\end{figure}
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/da9/EncoderIncremental_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{EncoderIncremental_8h_ab0986703a2b9b0c1919c4cdcf59148d1}{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA}~P\+O\+R\+T\+Bbits.\+R\+B0
+\item 
+\#define \hyperlink{EncoderIncremental_8h_a0e0eef9a2c30cd5a7006865dab2d2e79}{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB}~P\+O\+R\+T\+Bbits.\+R\+B1
+\item 
+\#define \hyperlink{EncoderIncremental_8h_a54aee7bed904715e92c3c6e9f1801f03}{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}~30
+\item 
+\#define \hyperlink{EncoderIncremental_8h_a3e68dd4a9bf508ddce011b2113e8ea15}{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A}~T\+R\+I\+S\+Bbits.\+R\+B0 = \hyperlink{BaseBoard_8h_a2267fe6b19995924d44cef4b7d895535}{E\+N\+T\+R\+A\+DA};
+\item 
+\#define \hyperlink{EncoderIncremental_8h_af92c80b05580f3d5515455f8623ad33f}{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B}~T\+R\+I\+S\+Bbits.\+R\+B1 = \hyperlink{BaseBoard_8h_a2267fe6b19995924d44cef4b7d895535}{E\+N\+T\+R\+A\+DA};
+\end{DoxyCompactItemize}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{EncoderIncremental_8h_a1f92e3491d1d96007589f41b5eb03fe7}{E\+D\+E\+R\+\_\+\+Init} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} set\+M\+AX, \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} set\+Min)
+\begin{DoxyCompactList}\small\item\em Funcion necesaria para inicializar el encoder, en la misma se define el rango del encoder. \end{DoxyCompactList}\item 
+\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_a1180a1403bc1363e30af38b9c276a9ea}{E\+D\+E\+R\+\_\+\+Get\+Pos} (void)
+\begin{DoxyCompactList}\small\item\em Llamando a esta funcion se obtiene un numero entre el valor M\+AX y el min. \end{DoxyCompactList}\item 
+void \hyperlink{EncoderIncremental_8h_a84d2929e16ed8c23f50ad0148163267f}{E\+D\+E\+R\+\_\+\+Put\+Pos} (unsigned char posicion)
+\begin{DoxyCompactList}\small\item\em Llamando a esta funcion se inicializa la posicion del encoder. \end{DoxyCompactList}\item 
+void \hyperlink{EncoderIncremental_8h_a90a4d0e96e4a9aac93bb2b59e2f1b624}{E\+D\+E\+R\+\_\+\+Interrupt} (void)
+\item 
+void \hyperlink{EncoderIncremental_8h_a11701efeb48e9b7b95efe7a958a91401}{E\+D\+E\+R\+\_\+\+Tic} (void)
+\begin{DoxyCompactList}\small\item\em Se encarga de la demora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_acba4a26c0330eb8f52158e306351fd67}{E\+D\+E\+R\+\_\+\+Maximo}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_a60645d94d942d68dd1c4a5d039df5860}{E\+D\+E\+R\+\_\+\+Minimo}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_a7a16d365adb64dd67685e78369350faf}{E\+D\+E\+R\+\_\+\+Delay}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_a677c386c12bb126117ae9bde73d296e2}{E\+D\+E\+R\+\_\+\+Posicion}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{EncoderIncremental_8h_acec90ea3b9fe87fc336faf998a18f74a}{E\+D\+E\+R\+\_\+\+Flag\+Canal}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{EncoderIncremental_8h_ab0986703a2b9b0c1919c4cdcf59148d1}\label{EncoderIncremental_8h_ab0986703a2b9b0c1919c4cdcf59148d1}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA@{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA}}
+\index{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA@{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA}{EDER\_CANALA}}
+{\footnotesize\ttfamily \#define E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LA~P\+O\+R\+T\+Bbits.\+R\+B0}
+
+
+
+Definición en la línea 51 del archivo Encoder\+Incremental.\+h.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a0e0eef9a2c30cd5a7006865dab2d2e79}\label{EncoderIncremental_8h_a0e0eef9a2c30cd5a7006865dab2d2e79}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB@{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB}}
+\index{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB@{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB}{EDER\_CANALB}}
+{\footnotesize\ttfamily \#define E\+D\+E\+R\+\_\+\+C\+A\+N\+A\+LB~P\+O\+R\+T\+Bbits.\+R\+B1}
+
+
+
+Definición en la línea 52 del archivo Encoder\+Incremental.\+h.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a54aee7bed904715e92c3c6e9f1801f03}\label{EncoderIncremental_8h_a54aee7bed904715e92c3c6e9f1801f03}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+D\+E\+L\+AY@{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}}
+\index{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY@{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}{EDER\_DELAY}}
+{\footnotesize\ttfamily \#define E\+D\+E\+R\+\_\+\+D\+E\+L\+AY~30}
+
+
+
+Definición en la línea 53 del archivo Encoder\+Incremental.\+h.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a3e68dd4a9bf508ddce011b2113e8ea15}\label{EncoderIncremental_8h_a3e68dd4a9bf508ddce011b2113e8ea15}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A@{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A}}
+\index{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A@{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A}{EDER\_SET\_ENTRADA\_A}}
+{\footnotesize\ttfamily \#define E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+A~T\+R\+I\+S\+Bbits.\+R\+B0 = \hyperlink{BaseBoard_8h_a2267fe6b19995924d44cef4b7d895535}{E\+N\+T\+R\+A\+DA};}
+
+
+
+Definición en la línea 59 del archivo Encoder\+Incremental.\+h.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_af92c80b05580f3d5515455f8623ad33f}\label{EncoderIncremental_8h_af92c80b05580f3d5515455f8623ad33f}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B@{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B}}
+\index{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B@{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B}{EDER\_SET\_ENTRADA\_B}}
+{\footnotesize\ttfamily \#define E\+D\+E\+R\+\_\+\+S\+E\+T\+\_\+\+E\+N\+T\+R\+A\+D\+A\+\_\+B~T\+R\+I\+S\+Bbits.\+R\+B1 = \hyperlink{BaseBoard_8h_a2267fe6b19995924d44cef4b7d895535}{E\+N\+T\+R\+A\+DA};}
+
+
+
+Definición en la línea 60 del archivo Encoder\+Incremental.\+h.
+
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{EncoderIncremental_8h_a1180a1403bc1363e30af38b9c276a9ea}\label{EncoderIncremental_8h_a1180a1403bc1363e30af38b9c276a9ea}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Get\+Pos@{E\+D\+E\+R\+\_\+\+Get\+Pos}}
+\index{E\+D\+E\+R\+\_\+\+Get\+Pos@{E\+D\+E\+R\+\_\+\+Get\+Pos}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Get\+Pos()}{EDER\_GetPos()}}
+{\footnotesize\ttfamily \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Get\+Pos (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Llamando a esta funcion se obtiene un numero entre el valor M\+AX y el min. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em posicion\+\_\+encoder} & uint8\+\_\+t \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 90 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a1f92e3491d1d96007589f41b5eb03fe7}\label{EncoderIncremental_8h_a1f92e3491d1d96007589f41b5eb03fe7}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Init@{E\+D\+E\+R\+\_\+\+Init}}
+\index{E\+D\+E\+R\+\_\+\+Init@{E\+D\+E\+R\+\_\+\+Init}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Init()}{EDER\_Init()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{set\+M\+AX,  }\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{set\+Min }\end{DoxyParamCaption})}
+
+
+
+Funcion necesaria para inicializar el encoder, en la misma se define el rango del encoder. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em set\+M\+AX} & necesario para definir la posicion maxima \\
+\hline
+\mbox{\tt in}  & {\em set\+Min} & necesario para definir la posicion minima \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 93 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a90a4d0e96e4a9aac93bb2b59e2f1b624}\label{EncoderIncremental_8h_a90a4d0e96e4a9aac93bb2b59e2f1b624}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Interrupt@{E\+D\+E\+R\+\_\+\+Interrupt}}
+\index{E\+D\+E\+R\+\_\+\+Interrupt@{E\+D\+E\+R\+\_\+\+Interrupt}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Interrupt()}{EDER\_Interrupt()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Interrupt (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 113 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a84d2929e16ed8c23f50ad0148163267f}\label{EncoderIncremental_8h_a84d2929e16ed8c23f50ad0148163267f}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Put\+Pos@{E\+D\+E\+R\+\_\+\+Put\+Pos}}
+\index{E\+D\+E\+R\+\_\+\+Put\+Pos@{E\+D\+E\+R\+\_\+\+Put\+Pos}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Put\+Pos()}{EDER\_PutPos()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Put\+Pos (\begin{DoxyParamCaption}\item[{unsigned char}]{posicion }\end{DoxyParamCaption})}
+
+
+
+Llamando a esta funcion se inicializa la posicion del encoder. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em posicion} & indica que posicion tiene el encoder fisicamente \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 104 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a11701efeb48e9b7b95efe7a958a91401}\label{EncoderIncremental_8h_a11701efeb48e9b7b95efe7a958a91401}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Tic@{E\+D\+E\+R\+\_\+\+Tic}}
+\index{E\+D\+E\+R\+\_\+\+Tic@{E\+D\+E\+R\+\_\+\+Tic}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Tic()}{EDER\_Tic()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Tic (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Se encarga de la demora. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 145 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{EncoderIncremental_8h_a7a16d365adb64dd67685e78369350faf}\label{EncoderIncremental_8h_a7a16d365adb64dd67685e78369350faf}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Delay@{E\+D\+E\+R\+\_\+\+Delay}}
+\index{E\+D\+E\+R\+\_\+\+Delay@{E\+D\+E\+R\+\_\+\+Delay}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Delay}{EDER\_Delay}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Delay}
+
+
+
+Definición en la línea 67 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_acec90ea3b9fe87fc336faf998a18f74a}\label{EncoderIncremental_8h_acec90ea3b9fe87fc336faf998a18f74a}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Flag\+Canal@{E\+D\+E\+R\+\_\+\+Flag\+Canal}}
+\index{E\+D\+E\+R\+\_\+\+Flag\+Canal@{E\+D\+E\+R\+\_\+\+Flag\+Canal}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Flag\+Canal}{EDER\_FlagCanal}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Flag\+Canal}
+
+
+
+Definición en la línea 68 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_acba4a26c0330eb8f52158e306351fd67}\label{EncoderIncremental_8h_acba4a26c0330eb8f52158e306351fd67}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Maximo@{E\+D\+E\+R\+\_\+\+Maximo}}
+\index{E\+D\+E\+R\+\_\+\+Maximo@{E\+D\+E\+R\+\_\+\+Maximo}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Maximo}{EDER\_Maximo}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Maximo}
+
+
+
+Definición en la línea 68 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a60645d94d942d68dd1c4a5d039df5860}\label{EncoderIncremental_8h_a60645d94d942d68dd1c4a5d039df5860}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Minimo@{E\+D\+E\+R\+\_\+\+Minimo}}
+\index{E\+D\+E\+R\+\_\+\+Minimo@{E\+D\+E\+R\+\_\+\+Minimo}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Minimo}{EDER\_Minimo}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Minimo}
+
+
+
+Definición en la línea 69 del archivo F\+W\+\_\+\+Init\+Encoder\+Incremetnal.\+c.
+
+\mbox{\Hypertarget{EncoderIncremental_8h_a677c386c12bb126117ae9bde73d296e2}\label{EncoderIncremental_8h_a677c386c12bb126117ae9bde73d296e2}} 
+\index{Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}!E\+D\+E\+R\+\_\+\+Posicion@{E\+D\+E\+R\+\_\+\+Posicion}}
+\index{E\+D\+E\+R\+\_\+\+Posicion@{E\+D\+E\+R\+\_\+\+Posicion}!Encoder\+Incremental.\+h@{Encoder\+Incremental.\+h}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Posicion}{EDER\_Posicion}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Posicion}
+
+
+
+Definición en la línea 67 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+

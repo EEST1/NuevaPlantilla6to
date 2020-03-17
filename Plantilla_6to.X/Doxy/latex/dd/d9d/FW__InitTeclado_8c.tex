@@ -1,0 +1,92 @@
+\hypertarget{FW__InitTeclado_8c}{}\section{Referencia del Archivo Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Teclado.c}
+\label{FW__InitTeclado_8c}\index{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Teclado.\+c@{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Teclado.\+c}}
+{\ttfamily \#include \char`\"{}F\+W\+\_\+\+Teclado.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para F\+W\+\_\+\+Init\+Teclado.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{da/d37/FW__InitTeclado_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{FW__InitTeclado_8c_afca05d832c45a47fe754f4ab43de364e}{T\+D\+O\+\_\+\+Init} (void)
+\begin{DoxyCompactList}\small\item\em Inicializa el puerto y las interrupciones. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitTeclado_8c_ab75acb8d09061e3b294d9c0c435e8514}{T\+D\+O\+\_\+fila} = \hyperlink{PR__Teclado_8h_a5c2ac6b318f743f8ff94c6c98f90f160}{T\+D\+O\+\_\+\+N\+O\+\_\+\+F\+I\+LA}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitTeclado_8c_ab846ff016af943e75c8eba19dcf42b8c}{T\+D\+O\+\_\+col} = \hyperlink{PR__Teclado_8h_a6fa2aa72f18fdcb2f1edd6b9a4191505}{T\+D\+O\+\_\+\+N\+O\+\_\+\+C\+OL}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitTeclado_8c_a49975b416d0c0b1ffb4d872eb258950e}{T\+D\+O\+\_\+flag\+\_\+kb} = 0
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__InitTeclado_8c_abe39f361a76120416e542e6402704c48}{T\+D\+O\+\_\+delay\+\_\+kb} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{FW__InitTeclado_8c_afca05d832c45a47fe754f4ab43de364e}\label{FW__InitTeclado_8c_afca05d832c45a47fe754f4ab43de364e}} 
+\index{F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}!T\+D\+O\+\_\+\+Init@{T\+D\+O\+\_\+\+Init}}
+\index{T\+D\+O\+\_\+\+Init@{T\+D\+O\+\_\+\+Init}!F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}}
+\subsubsection{\texorpdfstring{T\+D\+O\+\_\+\+Init()}{TDO\_Init()}}
+{\footnotesize\ttfamily void T\+D\+O\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Inicializa el puerto y las interrupciones. 
+
+La siguiente funcion inicializa el puerto y las interrupciones. $\ast$ Para incorporar el teclado al puerto B debe de llamarse luego de\+: $\ast$ \hyperlink{FW__InitKit_8c_a91a9e93581be29c6af058d09741ee5be}{Kit\+\_\+\+Init()} y \hyperlink{FW__InitTimer_8c_a4d368e642dbd363e361c8be19cd144eb}{Tmr0\+\_\+\+Init()} I\+M\+P\+O\+R\+T\+A\+N\+T\+E!! esta funci�n solamente funciona con el Shield 1.\+3 y no debe de ser tenida en cuenta para otros micros o placas \begin{DoxyAuthor}{Autor}
+Esteban Lemos 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+
+Definición en la línea 94 del archivo F\+W\+\_\+\+Init\+Teclado.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{FW__InitTeclado_8c_ab846ff016af943e75c8eba19dcf42b8c}\label{FW__InitTeclado_8c_ab846ff016af943e75c8eba19dcf42b8c}} 
+\index{F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}!T\+D\+O\+\_\+col@{T\+D\+O\+\_\+col}}
+\index{T\+D\+O\+\_\+col@{T\+D\+O\+\_\+col}!F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}}
+\subsubsection{\texorpdfstring{T\+D\+O\+\_\+col}{TDO\_col}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} T\+D\+O\+\_\+col = \hyperlink{PR__Teclado_8h_a6fa2aa72f18fdcb2f1edd6b9a4191505}{T\+D\+O\+\_\+\+N\+O\+\_\+\+C\+OL}}
+
+
+
+Definición en la línea 62 del archivo F\+W\+\_\+\+Init\+Teclado.\+c.
+
+\mbox{\Hypertarget{FW__InitTeclado_8c_abe39f361a76120416e542e6402704c48}\label{FW__InitTeclado_8c_abe39f361a76120416e542e6402704c48}} 
+\index{F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}!T\+D\+O\+\_\+delay\+\_\+kb@{T\+D\+O\+\_\+delay\+\_\+kb}}
+\index{T\+D\+O\+\_\+delay\+\_\+kb@{T\+D\+O\+\_\+delay\+\_\+kb}!F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}}
+\subsubsection{\texorpdfstring{T\+D\+O\+\_\+delay\+\_\+kb}{TDO\_delay\_kb}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} T\+D\+O\+\_\+delay\+\_\+kb = 0}
+
+
+
+Definición en la línea 64 del archivo F\+W\+\_\+\+Init\+Teclado.\+c.
+
+\mbox{\Hypertarget{FW__InitTeclado_8c_ab75acb8d09061e3b294d9c0c435e8514}\label{FW__InitTeclado_8c_ab75acb8d09061e3b294d9c0c435e8514}} 
+\index{F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}!T\+D\+O\+\_\+fila@{T\+D\+O\+\_\+fila}}
+\index{T\+D\+O\+\_\+fila@{T\+D\+O\+\_\+fila}!F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}}
+\subsubsection{\texorpdfstring{T\+D\+O\+\_\+fila}{TDO\_fila}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} T\+D\+O\+\_\+fila = \hyperlink{PR__Teclado_8h_a5c2ac6b318f743f8ff94c6c98f90f160}{T\+D\+O\+\_\+\+N\+O\+\_\+\+F\+I\+LA}}
+
+
+
+Definición en la línea 61 del archivo F\+W\+\_\+\+Init\+Teclado.\+c.
+
+\mbox{\Hypertarget{FW__InitTeclado_8c_a49975b416d0c0b1ffb4d872eb258950e}\label{FW__InitTeclado_8c_a49975b416d0c0b1ffb4d872eb258950e}} 
+\index{F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}!T\+D\+O\+\_\+flag\+\_\+kb@{T\+D\+O\+\_\+flag\+\_\+kb}}
+\index{T\+D\+O\+\_\+flag\+\_\+kb@{T\+D\+O\+\_\+flag\+\_\+kb}!F\+W\+\_\+\+Init\+Teclado.\+c@{F\+W\+\_\+\+Init\+Teclado.\+c}}
+\subsubsection{\texorpdfstring{T\+D\+O\+\_\+flag\+\_\+kb}{TDO\_flag\_kb}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} T\+D\+O\+\_\+flag\+\_\+kb = 0}
+
+
+
+Definición en la línea 63 del archivo F\+W\+\_\+\+Init\+Teclado.\+c.
+

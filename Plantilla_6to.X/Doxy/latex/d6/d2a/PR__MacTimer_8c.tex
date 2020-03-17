@@ -1,0 +1,203 @@
+\hypertarget{PR__MacTimer_8c}{}\section{Referencia del Archivo Primitivas/\+P\+R\+\_\+\+Mac\+Timer.c}
+\label{PR__MacTimer_8c}\index{Primitivas/\+P\+R\+\_\+\+Mac\+Timer.\+c@{Primitivas/\+P\+R\+\_\+\+Mac\+Timer.\+c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Mac\+Timer.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para P\+R\+\_\+\+Mac\+Timer.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{d7/dd1/PR__MacTimer_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{PR__MacTimer_8c_a4c8b1a8d2adf9edcefa637611ede4c37}{M\+C\+T\+M\+R\+\_\+\+Analizar} (void)
+\begin{DoxyCompactList}\small\item\em Descuento de Timers. No es una primitiva. Es una funci�n de la capa inferior. La ubico en este .c para tener todas las funciones de timers juntas. \end{DoxyCompactList}\item 
+void \hyperlink{PR__MacTimer_8c_a9d0410b97cf18aa1cb4e16ccf0934697}{M\+C\+T\+M\+R\+\_\+\+Start} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} evento, \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} tiempo)
+\begin{DoxyCompactList}\small\item\em Lanzamientos de Timers. \end{DoxyCompactList}\item 
+void \hyperlink{PR__MacTimer_8c_a48debe9df780acf2b014e64bc15fa20c}{M\+C\+T\+M\+R\+\_\+\+Close} (void)
+\begin{DoxyCompactList}\small\item\em Apaga todo los timers. \end{DoxyCompactList}\item 
+void \hyperlink{PR__MacTimer_8c_a3c2851c33967c1e1e7100cc8d0f49e94}{M\+C\+T\+M\+R\+\_\+\+Stop} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} evento)
+\begin{DoxyCompactList}\small\item\em Aapaga el timer indicado. \end{DoxyCompactList}\item 
+void \hyperlink{PR__MacTimer_8c_a676be584825c2eda6c4dd5fb57ff4acb}{M\+C\+T\+M\+R\+\_\+\+Event} (void)
+\begin{DoxyCompactList}\small\item\em Analiza Eventos de timers. No es una primitiva. Es parte o toda la aplicaci�n La ubico en este .c para tener todas las funciones de timers juntas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t} \hyperlink{PR__MacTimer_8c_a8b428db727bdc812d532f747cec0c004}{M\+C\+T\+M\+R\+\_\+\+Run} \mbox{[}\hyperlink{MacTimer_8h_a81bf35758ad812f44a7e314120a2ec7e}{M\+C\+T\+M\+R\+\_\+\+T\+I\+M\+E\+RS}\mbox{]}
+\begin{DoxyCompactList}\small\item\em el tipo de dato lo defino dependiendo el timepo que \end{DoxyCompactList}\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{PR__MacTimer_8c_a5eb4db3b88aa80a93fea88c732624601}{M\+C\+T\+M\+R\+\_\+\+Eventos} = 0
+\begin{DoxyCompactList}\small\item\em necesite y la base de tiempo propuesta cada posic�n \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{PR__MacTimer_8c_a4c8b1a8d2adf9edcefa637611ede4c37}\label{PR__MacTimer_8c_a4c8b1a8d2adf9edcefa637611ede4c37}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Analizar@{M\+C\+T\+M\+R\+\_\+\+Analizar}}
+\index{M\+C\+T\+M\+R\+\_\+\+Analizar@{M\+C\+T\+M\+R\+\_\+\+Analizar}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Analizar()}{MCTMR\_Analizar()}}
+{\footnotesize\ttfamily void M\+C\+T\+M\+R\+\_\+\+Analizar (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Descuento de Timers. No es una primitiva. Es una funci�n de la capa inferior. La ubico en este .c para tener todas las funciones de timers juntas. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol�s Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+1 de octubre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 100 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+\mbox{\Hypertarget{PR__MacTimer_8c_a48debe9df780acf2b014e64bc15fa20c}\label{PR__MacTimer_8c_a48debe9df780acf2b014e64bc15fa20c}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Close@{M\+C\+T\+M\+R\+\_\+\+Close}}
+\index{M\+C\+T\+M\+R\+\_\+\+Close@{M\+C\+T\+M\+R\+\_\+\+Close}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Close()}{MCTMR\_Close()}}
+{\footnotesize\ttfamily void M\+C\+T\+M\+R\+\_\+\+Close (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Apaga todo los timers. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol�s Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+1 de octubre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 151 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+\mbox{\Hypertarget{PR__MacTimer_8c_a676be584825c2eda6c4dd5fb57ff4acb}\label{PR__MacTimer_8c_a676be584825c2eda6c4dd5fb57ff4acb}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Event@{M\+C\+T\+M\+R\+\_\+\+Event}}
+\index{M\+C\+T\+M\+R\+\_\+\+Event@{M\+C\+T\+M\+R\+\_\+\+Event}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Event()}{MCTMR\_Event()}}
+{\footnotesize\ttfamily void M\+C\+T\+M\+R\+\_\+\+Event (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Analiza Eventos de timers. No es una primitiva. Es parte o toda la aplicaci�n La ubico en este .c para tener todas las funciones de timers juntas. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol�s Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+1 de octubre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 187 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+\mbox{\Hypertarget{PR__MacTimer_8c_a9d0410b97cf18aa1cb4e16ccf0934697}\label{PR__MacTimer_8c_a9d0410b97cf18aa1cb4e16ccf0934697}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Start@{M\+C\+T\+M\+R\+\_\+\+Start}}
+\index{M\+C\+T\+M\+R\+\_\+\+Start@{M\+C\+T\+M\+R\+\_\+\+Start}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Start()}{MCTMR\_Start()}}
+{\footnotesize\ttfamily void M\+C\+T\+M\+R\+\_\+\+Start (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{evento,  }\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{tiempo }\end{DoxyParamCaption})}
+
+
+
+Lanzamientos de Timers. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol�s Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+1 de octubre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em numero} & de evento \\
+\hline
+\mbox{\tt in}  & {\em valor} & del timer \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 126 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+\mbox{\Hypertarget{PR__MacTimer_8c_a3c2851c33967c1e1e7100cc8d0f49e94}\label{PR__MacTimer_8c_a3c2851c33967c1e1e7100cc8d0f49e94}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Stop@{M\+C\+T\+M\+R\+\_\+\+Stop}}
+\index{M\+C\+T\+M\+R\+\_\+\+Stop@{M\+C\+T\+M\+R\+\_\+\+Stop}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Stop()}{MCTMR\_Stop()}}
+{\footnotesize\ttfamily void M\+C\+T\+M\+R\+\_\+\+Stop (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{evento }\end{DoxyParamCaption})}
+
+
+
+Aapaga el timer indicado. 
+
+void M\+C\+T\+M\+R\+\_\+\+Stop (uint8\+\_\+t evento) \begin{DoxyAuthor}{Autor}
+Nicol�s Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+1 de octubre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em numero} & de evento \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 170 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{PR__MacTimer_8c_a5eb4db3b88aa80a93fea88c732624601}\label{PR__MacTimer_8c_a5eb4db3b88aa80a93fea88c732624601}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Eventos@{M\+C\+T\+M\+R\+\_\+\+Eventos}}
+\index{M\+C\+T\+M\+R\+\_\+\+Eventos@{M\+C\+T\+M\+R\+\_\+\+Eventos}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Eventos}{MCTMR\_Eventos}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} M\+C\+T\+M\+R\+\_\+\+Eventos = 0}
+
+
+
+necesite y la base de tiempo propuesta cada posic�n 
+
+
+
+Definición en la línea 73 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+
+\mbox{\Hypertarget{PR__MacTimer_8c_a8b428db727bdc812d532f747cec0c004}\label{PR__MacTimer_8c_a8b428db727bdc812d532f747cec0c004}} 
+\index{P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}!M\+C\+T\+M\+R\+\_\+\+Run@{M\+C\+T\+M\+R\+\_\+\+Run}}
+\index{M\+C\+T\+M\+R\+\_\+\+Run@{M\+C\+T\+M\+R\+\_\+\+Run}!P\+R\+\_\+\+Mac\+Timer.\+c@{P\+R\+\_\+\+Mac\+Timer.\+c}}
+\subsubsection{\texorpdfstring{M\+C\+T\+M\+R\+\_\+\+Run}{MCTMR\_Run}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t} M\+C\+T\+M\+R\+\_\+\+Run\mbox{[}\hyperlink{MacTimer_8h_a81bf35758ad812f44a7e314120a2ec7e}{M\+C\+T\+M\+R\+\_\+\+T\+I\+M\+E\+RS}\mbox{]}}
+
+
+
+el tipo de dato lo defino dependiendo el timepo que 
+
+
+
+Definición en la línea 72 del archivo P\+R\+\_\+\+Mac\+Timer.\+c.
+

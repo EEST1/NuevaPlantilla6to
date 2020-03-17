@@ -1,0 +1,91 @@
+\hypertarget{FW__EncoderIncremental_8c}{}\section{Referencia del Archivo Firmware\+\_\+\+Driver/\+F\+W\+\_\+\+Encoder\+Incremental.c}
+\label{FW__EncoderIncremental_8c}\index{Firmware\+\_\+\+Driver/\+F\+W\+\_\+\+Encoder\+Incremental.\+c@{Firmware\+\_\+\+Driver/\+F\+W\+\_\+\+Encoder\+Incremental.\+c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Encoder\+Incremental.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Display7\+Segmentos.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para F\+W\+\_\+\+Encoder\+Incremental.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d10/FW__EncoderIncremental_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{FW__EncoderIncremental_8c_a90a4d0e96e4a9aac93bb2b59e2f1b624}{E\+D\+E\+R\+\_\+\+Interrupt} (void)
+\item 
+void \hyperlink{FW__EncoderIncremental_8c_a11701efeb48e9b7b95efe7a958a91401}{E\+D\+E\+R\+\_\+\+Tic} (void)
+\begin{DoxyCompactList}\small\item\em Se encarga de la demora. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__EncoderIncremental_8c_a7a16d365adb64dd67685e78369350faf}{E\+D\+E\+R\+\_\+\+Delay} = \hyperlink{EncoderIncremental_8h_a54aee7bed904715e92c3c6e9f1801f03}{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{FW__EncoderIncremental_8c_acec90ea3b9fe87fc336faf998a18f74a}{E\+D\+E\+R\+\_\+\+Flag\+Canal} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{FW__EncoderIncremental_8c_a90a4d0e96e4a9aac93bb2b59e2f1b624}\label{FW__EncoderIncremental_8c_a90a4d0e96e4a9aac93bb2b59e2f1b624}} 
+\index{F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Interrupt@{E\+D\+E\+R\+\_\+\+Interrupt}}
+\index{E\+D\+E\+R\+\_\+\+Interrupt@{E\+D\+E\+R\+\_\+\+Interrupt}!F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Interrupt()}{EDER\_Interrupt()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Interrupt (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 113 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{FW__EncoderIncremental_8c_a11701efeb48e9b7b95efe7a958a91401}\label{FW__EncoderIncremental_8c_a11701efeb48e9b7b95efe7a958a91401}} 
+\index{F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Tic@{E\+D\+E\+R\+\_\+\+Tic}}
+\index{E\+D\+E\+R\+\_\+\+Tic@{E\+D\+E\+R\+\_\+\+Tic}!F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Tic()}{EDER\_Tic()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Tic (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Se encarga de la demora. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 145 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{FW__EncoderIncremental_8c_a7a16d365adb64dd67685e78369350faf}\label{FW__EncoderIncremental_8c_a7a16d365adb64dd67685e78369350faf}} 
+\index{F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Delay@{E\+D\+E\+R\+\_\+\+Delay}}
+\index{E\+D\+E\+R\+\_\+\+Delay@{E\+D\+E\+R\+\_\+\+Delay}!F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Delay}{EDER\_Delay}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Delay = \hyperlink{EncoderIncremental_8h_a54aee7bed904715e92c3c6e9f1801f03}{E\+D\+E\+R\+\_\+\+D\+E\+L\+AY}}
+
+
+
+Definición en la línea 67 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{FW__EncoderIncremental_8c_acec90ea3b9fe87fc336faf998a18f74a}\label{FW__EncoderIncremental_8c_acec90ea3b9fe87fc336faf998a18f74a}} 
+\index{F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Flag\+Canal@{E\+D\+E\+R\+\_\+\+Flag\+Canal}}
+\index{E\+D\+E\+R\+\_\+\+Flag\+Canal@{E\+D\+E\+R\+\_\+\+Flag\+Canal}!F\+W\+\_\+\+Encoder\+Incremental.\+c@{F\+W\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Flag\+Canal}{EDER\_FlagCanal}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Flag\+Canal = 0}
+
+
+
+Definición en la línea 68 del archivo F\+W\+\_\+\+Encoder\+Incremental.\+c.
+

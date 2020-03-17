@@ -1,0 +1,10 @@
+<map id="LCD_ReadBusy" name="LCD_ReadBusy">
+<area shape="rect" id="node2" href="$dd/d90/FW__InitLCD_8c.html#aa53c9d40f3aa552a9974cd55ac510cb3" title="Inicializa el LCD para el shield 2. " alt="" coords="193,5,267,32"/>
+<area shape="rect" id="node3" href="$db/d25/PR__LCD_8c.html#a0ef307c21b4f8ffe35c58585496666d4" title="Envia un carater al LCD. " alt="" coords="171,56,289,83"/>
+<area shape="rect" id="node5" href="$db/d25/PR__LCD_8c.html#a1d63cf070d83b4ee8c0bc5486183d573" title="Envia un string al LCD. " alt="" coords="173,107,287,133"/>
+<area shape="rect" id="node6" href="$db/d25/PR__LCD_8c.html#ae60d0b62d7eb3fa31266c095d7b3c245" title="Borra el LCD. " alt="" coords="187,157,273,184"/>
+<area shape="rect" id="node7" href="$db/d25/PR__LCD_8c.html#aa802b755d26047d28a9d08cc78b309af" title="Regresa el curor al inicio. " alt="" coords="174,208,286,235"/>
+<area shape="rect" id="node8" href="$db/d25/PR__LCD_8c.html#abb097c738d88dfa19fad30e7c7fd2c91" title="Ubica el cursor en una posición determinada. " alt="" coords="173,259,287,285"/>
+<area shape="rect" id="node9" href="$db/d25/PR__LCD_8c.html#a40609a113bdff1476fcda8e8232c9f04" title="Desplaza al LCD a la izq. " alt="" coords="174,309,286,336"/>
+<area shape="rect" id="node4" href="$dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="337,56,461,83"/>
+</map>

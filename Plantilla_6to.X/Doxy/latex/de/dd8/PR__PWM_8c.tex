@@ -1,0 +1,124 @@
+\hypertarget{PR__PWM_8c}{}\section{Referencia del Archivo Primitivas/\+P\+R\+\_\+\+P\+WM.c}
+\label{PR__PWM_8c}\index{Primitivas/\+P\+R\+\_\+\+P\+W\+M.\+c@{Primitivas/\+P\+R\+\_\+\+P\+W\+M.\+c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}P\+W\+M.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para P\+R\+\_\+\+P\+W\+M.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{d9/d95/PR__PWM_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{PR__PWM_8c_a1caf6a203168f7e01cacd0b58a0ddb3c}{P\+W\+M\+\_\+\+Periodo\+Up} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} valor)
+\begin{DoxyCompactList}\small\item\em Aumenta el periodo del P\+WM. \end{DoxyCompactList}\item 
+void \hyperlink{PR__PWM_8c_a4ba3fad4eeeb7a95a1a3a5ed0207e9c9}{P\+W\+M\+\_\+\+Periodo\+Down} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} valor)
+\begin{DoxyCompactList}\small\item\em Disminuye el periodo del P\+WM. \end{DoxyCompactList}\item 
+void \hyperlink{PR__PWM_8c_ad62ec08aad33f28c9c00bcddae1776ea}{P\+W\+M\+\_\+\+Set} (\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} periodo, \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} duty)
+\begin{DoxyCompactList}\small\item\em Configura una modulaci�n por ancho de pulso con frecuencia = 1/peiodo y ciclo de trabajo = Duty. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t} \hyperlink{PR__PWM_8c_a2800925815d856893b090f9c5d677c97}{P\+W\+M\+\_\+\+Frecuencia} = 1000
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{PR__PWM_8c_a4ba3fad4eeeb7a95a1a3a5ed0207e9c9}\label{PR__PWM_8c_a4ba3fad4eeeb7a95a1a3a5ed0207e9c9}} 
+\index{P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}!P\+W\+M\+\_\+\+Periodo\+Down@{P\+W\+M\+\_\+\+Periodo\+Down}}
+\index{P\+W\+M\+\_\+\+Periodo\+Down@{P\+W\+M\+\_\+\+Periodo\+Down}!P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}}
+\subsubsection{\texorpdfstring{P\+W\+M\+\_\+\+Periodo\+Down()}{PWM\_PeriodoDown()}}
+{\footnotesize\ttfamily void P\+W\+M\+\_\+\+Periodo\+Down (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{valor }\end{DoxyParamCaption})}
+
+
+
+Disminuye el periodo del P\+WM. 
+
+\begin{DoxyAuthor}{Autor}
+Nombre 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+\$\{date\} 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 105 del archivo P\+R\+\_\+\+P\+W\+M.\+c.
+
+\mbox{\Hypertarget{PR__PWM_8c_a1caf6a203168f7e01cacd0b58a0ddb3c}\label{PR__PWM_8c_a1caf6a203168f7e01cacd0b58a0ddb3c}} 
+\index{P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}!P\+W\+M\+\_\+\+Periodo\+Up@{P\+W\+M\+\_\+\+Periodo\+Up}}
+\index{P\+W\+M\+\_\+\+Periodo\+Up@{P\+W\+M\+\_\+\+Periodo\+Up}!P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}}
+\subsubsection{\texorpdfstring{P\+W\+M\+\_\+\+Periodo\+Up()}{PWM\_PeriodoUp()}}
+{\footnotesize\ttfamily void P\+W\+M\+\_\+\+Periodo\+Up (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{valor }\end{DoxyParamCaption})}
+
+
+
+Aumenta el periodo del P\+WM. 
+
+\begin{DoxyAuthor}{Autor}
+Nombre 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+\$\{date\} 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 87 del archivo P\+R\+\_\+\+P\+W\+M.\+c.
+
+\mbox{\Hypertarget{PR__PWM_8c_ad62ec08aad33f28c9c00bcddae1776ea}\label{PR__PWM_8c_ad62ec08aad33f28c9c00bcddae1776ea}} 
+\index{P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}!P\+W\+M\+\_\+\+Set@{P\+W\+M\+\_\+\+Set}}
+\index{P\+W\+M\+\_\+\+Set@{P\+W\+M\+\_\+\+Set}!P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}}
+\subsubsection{\texorpdfstring{P\+W\+M\+\_\+\+Set()}{PWM\_Set()}}
+{\footnotesize\ttfamily void P\+W\+M\+\_\+\+Set (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{periodo,  }\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{duty }\end{DoxyParamCaption})}
+
+
+
+Configura una modulaci�n por ancho de pulso con frecuencia = 1/peiodo y ciclo de trabajo = Duty. 
+
+\begin{DoxyAuthor}{Autor}
+Nombre 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+\$\{date\} 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em periodo} & \\
+\hline
+\mbox{\tt in}  & {\em duty} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 125 del archivo P\+R\+\_\+\+P\+W\+M.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{PR__PWM_8c_a2800925815d856893b090f9c5d677c97}\label{PR__PWM_8c_a2800925815d856893b090f9c5d677c97}} 
+\index{P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}!P\+W\+M\+\_\+\+Frecuencia@{P\+W\+M\+\_\+\+Frecuencia}}
+\index{P\+W\+M\+\_\+\+Frecuencia@{P\+W\+M\+\_\+\+Frecuencia}!P\+R\+\_\+\+P\+W\+M.\+c@{P\+R\+\_\+\+P\+W\+M.\+c}}
+\subsubsection{\texorpdfstring{P\+W\+M\+\_\+\+Frecuencia}{PWM\_Frecuencia}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t} P\+W\+M\+\_\+\+Frecuencia = 1000}
+
+
+
+Definición en la línea 60 del archivo P\+R\+\_\+\+P\+W\+M.\+c.
+

@@ -1,0 +1,37 @@
+<map id="inc/BaseBoard.h" name="inc/BaseBoard.h">
+<area shape="rect" id="node2" href="$d8/d24/FW__EncoderIncremental_8c.html" title="Firmware_Driver/FW\l_EncoderIncremental.c" alt="" coords="1837,155,1993,196"/>
+<area shape="rect" id="node3" href="$d9/d36/FW__EntradasDigitales_8c.html" title="Firmware_Driver/FW\l_EntradasDigitales.c" alt="" coords="2777,155,2920,196"/>
+<area shape="rect" id="node4" href="$d8/daa/FW__InitEncoderIncremetnal_8c.html" title="Firmware_Init/FW_InitEncoder\lIncremetnal.c" alt="" coords="2068,155,2267,196"/>
+<area shape="rect" id="node5" href="$d2/d7e/FW__InitTimer_8c.html" title="Firmware_Init/FW_InitTimer.c" alt="" coords="3561,80,3755,107"/>
+<area shape="rect" id="node6" href="$d4/da4/Aplicacion_8h.html" title="inc/Aplicacion.h" alt="" coords="1362,251,1477,278"/>
+<area shape="rect" id="node9" href="$d5/dee/FW__InitKit_8h.html" title="inc/FW_InitKit.h" alt="" coords="832,80,948,107"/>
+<area shape="rect" id="node11" href="$d1/d96/PR__LCD_8h.html" title="inc/PR_LCD.h" alt="" coords="475,80,582,107"/>
+<area shape="rect" id="node13" href="$d4/d93/FW__LCD_8h.html" title="inc/FW_LCD.h" alt="" coords="382,162,491,189"/>
+<area shape="rect" id="node16" href="$d3/d8c/PR__Teclado_8h.html" title="inc/PR_Teclado.h" alt="" coords="972,80,1099,107"/>
+<area shape="rect" id="node18" href="$df/d5a/FW__Teclado_8h.html" title="inc/FW_Teclado.h" alt="" coords="566,162,694,189"/>
+<area shape="rect" id="node22" href="$db/dff/Display7Segmentos_8h.html" title="inc/Display7Segmentos.h" alt="" coords="1602,80,1773,107"/>
+<area shape="rect" id="node25" href="$d2/dc9/EntradasDigitales_8h.html" title="inc/EntradasDigitales.h" alt="" coords="2770,80,2927,107"/>
+<area shape="rect" id="node26" href="$d5/d87/PR__EntradasDigitales_8c.html" title="Primitivas/PR_EntradasDigitales.c" alt="" coords="2995,162,3219,189"/>
+<area shape="rect" id="node27" href="$d7/d02/EncoderIncremental_8h.html" title="inc/EncoderIncremental.h" alt="" coords="1958,80,2129,107"/>
+<area shape="rect" id="node28" href="$d0/d4d/PR__EncoderIncremental_8c.html" title="Primitivas/PR_EncoderIncremental.c" alt="" coords="2290,162,2527,189"/>
+<area shape="rect" id="node29" href="$d6/db0/EEPROM_8h.html" title="inc/EEPROM.h" alt="" coords="3277,80,3389,107"/>
+<area shape="rect" id="node31" href="$dc/db0/PR__ADC_8h.html" title="inc/PR_ADC.h" alt="" coords="2510,80,2619,107"/>
+<area shape="rect" id="node33" href="$d0/d2b/USART_8h.html" title="inc/USART.h" alt="" coords="3436,80,3536,107"/>
+<area shape="rect" id="node36" href="$d6/d2a/PR__MacTimer_8c.html" title="Primitivas/PR_MacTimer.c" alt="" coords="3779,80,3958,107"/>
+<area shape="rect" id="node7" href="$d8/db4/Aplicacion_8c.html" title="Aplicacion/Aplicacion.c" alt="" coords="1274,333,1431,360"/>
+<area shape="rect" id="node8" href="$d0/d29/main_8c.html" title="main.c" alt="" coords="1455,333,1517,360"/>
+<area shape="rect" id="node10" href="$d6/d67/FW__InitKit_8c.html" title="Firmware_Init/FW_InitKit.c" alt="" coords="769,162,947,189"/>
+<area shape="rect" id="node12" href="$dd/d90/FW__InitLCD_8c.html" title="Firmware_Init/FW_InitLCD.c" alt="" coords="345,251,534,278"/>
+<area shape="rect" id="node15" href="$db/d25/PR__LCD_8c.html" title="Primitivas/PR_LCD.c" alt="" coords="5,251,153,278"/>
+<area shape="rect" id="node14" href="$d8/dd6/FW__LCD_8c.html" title="Firmware_Driver/FW\l_LCD.c" alt="" coords="177,244,320,285"/>
+<area shape="rect" id="node17" href="$da/d0d/FW__Interrupt_8c.html" title="Firmware_Driver/FW\l_Interrupt.c" alt="" coords="1671,155,1813,196"/>
+<area shape="rect" id="node21" href="$da/d88/PR__Teclado_8c.html" title="Primitivas/PR_Teclado.c" alt="" coords="959,251,1125,278"/>
+<area shape="rect" id="node19" href="$df/daa/FW__Teclado_8c.html" title="Firmware_Driver/FW\l_Teclado.c" alt="" coords="559,244,701,285"/>
+<area shape="rect" id="node20" href="$dd/d9d/FW__InitTeclado_8c.html" title="Firmware_Init/FW_InitTeclado.c" alt="" coords="726,251,934,278"/>
+<area shape="rect" id="node23" href="$d9/db3/FW__Display7Segmentos_8c.html" title="Firmware_Driver/FW\l_Display7Segmentos.c" alt="" coords="1438,155,1595,196"/>
+<area shape="rect" id="node24" href="$d7/d8e/PR__Display7Segmentos_8c.html" title="Primitivas/PR_Display7Segmentos.c" alt="" coords="1175,162,1413,189"/>
+<area shape="rect" id="node30" href="$dd/d34/PR__EEPROM_8c.html" title="Primitivas/PR_EEPROM.c" alt="" coords="3243,162,3422,189"/>
+<area shape="rect" id="node32" href="$d1/dee/PR__ADC_8c.html" title="Primitivas/PR_ADC.c" alt="" coords="2603,162,2753,189"/>
+<area shape="rect" id="node34" href="$d2/d2d/FW__USARTInit_8c.html" title="Firmware_Init/FW_USARTInit.c" alt="" coords="3547,162,3755,189"/>
+<area shape="rect" id="node35" href="$d4/d5f/PR__USART_8c.html" title="Primitivas/PR_USART.c" alt="" coords="3780,162,3947,189"/>
+</map>

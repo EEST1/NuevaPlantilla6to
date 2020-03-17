@@ -1,0 +1,95 @@
+\hypertarget{PR__EncoderIncremental_8c}{}\section{Referencia del Archivo Primitivas/\+P\+R\+\_\+\+Encoder\+Incremental.c}
+\label{PR__EncoderIncremental_8c}\index{Primitivas/\+P\+R\+\_\+\+Encoder\+Incremental.\+c@{Primitivas/\+P\+R\+\_\+\+Encoder\+Incremental.\+c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Encoder\+Incremental.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para P\+R\+\_\+\+Encoder\+Incremental.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{d3/d13/PR__EncoderIncremental_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{PR__EncoderIncremental_8c_a1180a1403bc1363e30af38b9c276a9ea}{E\+D\+E\+R\+\_\+\+Get\+Pos} (void)
+\begin{DoxyCompactList}\small\item\em Llamando a esta funcion se obtiene un numero entre el valor M\+AX y el min. \end{DoxyCompactList}\item 
+void \hyperlink{PR__EncoderIncremental_8c_a84d2929e16ed8c23f50ad0148163267f}{E\+D\+E\+R\+\_\+\+Put\+Pos} (unsigned char posicion)
+\begin{DoxyCompactList}\small\item\em Llamando a esta funcion se inicializa la posicion del encoder. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{PR__EncoderIncremental_8c_a677c386c12bb126117ae9bde73d296e2}{E\+D\+E\+R\+\_\+\+Posicion} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{PR__EncoderIncremental_8c_a1180a1403bc1363e30af38b9c276a9ea}\label{PR__EncoderIncremental_8c_a1180a1403bc1363e30af38b9c276a9ea}} 
+\index{P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Get\+Pos@{E\+D\+E\+R\+\_\+\+Get\+Pos}}
+\index{E\+D\+E\+R\+\_\+\+Get\+Pos@{E\+D\+E\+R\+\_\+\+Get\+Pos}!P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Get\+Pos()}{EDER\_GetPos()}}
+{\footnotesize\ttfamily \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Get\+Pos (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Llamando a esta funcion se obtiene un numero entre el valor M\+AX y el min. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em posicion\+\_\+encoder} & uint8\+\_\+t \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 90 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+
+\mbox{\Hypertarget{PR__EncoderIncremental_8c_a84d2929e16ed8c23f50ad0148163267f}\label{PR__EncoderIncremental_8c_a84d2929e16ed8c23f50ad0148163267f}} 
+\index{P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Put\+Pos@{E\+D\+E\+R\+\_\+\+Put\+Pos}}
+\index{E\+D\+E\+R\+\_\+\+Put\+Pos@{E\+D\+E\+R\+\_\+\+Put\+Pos}!P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Put\+Pos()}{EDER\_PutPos()}}
+{\footnotesize\ttfamily void E\+D\+E\+R\+\_\+\+Put\+Pos (\begin{DoxyParamCaption}\item[{unsigned char}]{posicion }\end{DoxyParamCaption})}
+
+
+
+Llamando a esta funcion se inicializa la posicion del encoder. 
+
+\begin{DoxyAuthor}{Autor}
+
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em posicion} & indica que posicion tiene el encoder fisicamente \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 104 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+
+
+
+\subsection{Documentación de las variables}
+\mbox{\Hypertarget{PR__EncoderIncremental_8c_a677c386c12bb126117ae9bde73d296e2}\label{PR__EncoderIncremental_8c_a677c386c12bb126117ae9bde73d296e2}} 
+\index{P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}!E\+D\+E\+R\+\_\+\+Posicion@{E\+D\+E\+R\+\_\+\+Posicion}}
+\index{E\+D\+E\+R\+\_\+\+Posicion@{E\+D\+E\+R\+\_\+\+Posicion}!P\+R\+\_\+\+Encoder\+Incremental.\+c@{P\+R\+\_\+\+Encoder\+Incremental.\+c}}
+\subsubsection{\texorpdfstring{E\+D\+E\+R\+\_\+\+Posicion}{EDER\_Posicion}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} E\+D\+E\+R\+\_\+\+Posicion = 0}
+
+
+
+Definición en la línea 67 del archivo P\+R\+\_\+\+Encoder\+Incremental.\+c.
+

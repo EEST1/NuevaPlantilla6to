@@ -1,0 +1,270 @@
+\hypertarget{Display7Segmentos_8h}{}\section{Referencia del Archivo inc/\+Display7\+Segmentos.h}
+\label{Display7Segmentos_8h}\index{inc/\+Display7\+Segmentos.\+h@{inc/\+Display7\+Segmentos.\+h}}
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+Dependencia gr谩fica adjunta para Display7\+Segmentos.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{d4/d1d/Display7Segmentos_8h__incl}
+\end{center}
+\end{figure}
+Gr谩fico de los archivos que directa o indirectamente incluyen a este archivo\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d86/Display7Segmentos_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a4a6bdb32c7783dae55095173319d52ab}{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}~4
+\begin{DoxyCompactList}\small\item\em N鷐eros de diplays. \end{DoxyCompactList}\item 
+\#define \hyperlink{Display7Segmentos_8h_a664b6ba4767ee385ae6010587d9d8b9a}{D\+P\+\_\+\+T\+IC}~5
+\begin{DoxyCompactList}\small\item\em Demora del barrido. \end{DoxyCompactList}\item 
+\#define \hyperlink{Display7Segmentos_8h_a047430db55a3f99e1193bcb38509fbf4}{D\+P\+\_\+\+D\+I\+S\+P4}~L\+A\+T\+Abits.\+L\+A4
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a10fe6f48e47a03df39d4485c3c338f4f}{D\+P\+\_\+\+D\+I\+S\+P3}~L\+A\+T\+Abits.\+L\+A5
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a6c15794d391d0969d6ad81a6a3a59679}{D\+P\+\_\+\+D\+I\+S\+P2}~L\+A\+T\+Ebits.\+L\+E0
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a2eb7c4c009ccf0afa44b5267a4eae3e7}{D\+P\+\_\+\+D\+I\+S\+P1}~L\+A\+T\+Ebits.\+L\+E1
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a5ca40760822b7225232a2438151c9e7e}{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA}~L\+A\+T\+Abits.\+L\+A0
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a65759c7793e1b2b1525f288fcff151e3}{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB}~L\+A\+T\+Abits.\+L\+A1
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a18204a3cce46b4034c80eb413bb78ef0}{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC}~L\+A\+T\+Abits.\+L\+A2
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a83b47fac44e744fe583978dfb4d4a85a}{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD}~L\+A\+T\+Abits.\+L\+A3
+\item 
+\#define \hyperlink{Display7Segmentos_8h_a5906f15756de8f01bc57c1f8803d013f}{D\+P\+\_\+\+D\+OT}~L\+A\+T\+Ebits.\+L\+E2
+\end{DoxyCompactItemize}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{Display7Segmentos_8h_a41b93045d294c7b52da4d1aa857383dd}{D\+P\+\_\+\+Barrido\+Display} (void)
+\begin{DoxyCompactList}\small\item\em Realiza el barrido de los displays. \end{DoxyCompactList}\item 
+void \hyperlink{Display7Segmentos_8h_ad93a0dc9bed0921da3a840880464fdc4}{D\+P\+\_\+\+Display\+B\+CD} (\hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t} valor, \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} dsp)
+\item 
+void \hyperlink{Display7Segmentos_8h_a372f00db9001b490f7cec5e8d86b559b}{D\+P\+\_\+\+Tic} (void)
+\begin{DoxyCompactList}\small\item\em Se encarga de la demora del barrido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{Display7Segmentos_8h_ad2a45360f8387fbe8e885bb9f3114ea5}{D\+P\+\_\+msg\+Display} \mbox{[}\hyperlink{Display7Segmentos_8h_a4a6bdb32c7783dae55095173319d52ab}{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}\mbox{]}
+\item 
+volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} \hyperlink{Display7Segmentos_8h_a65e480a33e370b81cef253cb71d2a22b}{D\+P\+\_\+\+Delay}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentaci贸n de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{Display7Segmentos_8h_a4a6bdb32c7783dae55095173319d52ab}\label{Display7Segmentos_8h_a4a6bdb32c7783dae55095173319d52ab}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+I\+G\+I\+T\+OS@{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}}
+\index{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS@{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}{DP\_DIGITOS}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+I\+G\+I\+T\+OS~4}
+
+
+
+N鷐eros de diplays. 
+
+
+
+Definici贸n en la l铆nea 49 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a2eb7c4c009ccf0afa44b5267a4eae3e7}\label{Display7Segmentos_8h_a2eb7c4c009ccf0afa44b5267a4eae3e7}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+I\+S\+P1@{D\+P\+\_\+\+D\+I\+S\+P1}}
+\index{D\+P\+\_\+\+D\+I\+S\+P1@{D\+P\+\_\+\+D\+I\+S\+P1}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+I\+S\+P1}{DP\_DISP1}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+I\+S\+P1~L\+A\+T\+Ebits.\+L\+E1}
+
+
+
+Definici贸n en la l铆nea 55 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a6c15794d391d0969d6ad81a6a3a59679}\label{Display7Segmentos_8h_a6c15794d391d0969d6ad81a6a3a59679}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+I\+S\+P2@{D\+P\+\_\+\+D\+I\+S\+P2}}
+\index{D\+P\+\_\+\+D\+I\+S\+P2@{D\+P\+\_\+\+D\+I\+S\+P2}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+I\+S\+P2}{DP\_DISP2}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+I\+S\+P2~L\+A\+T\+Ebits.\+L\+E0}
+
+
+
+Definici贸n en la l铆nea 54 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a10fe6f48e47a03df39d4485c3c338f4f}\label{Display7Segmentos_8h_a10fe6f48e47a03df39d4485c3c338f4f}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+I\+S\+P3@{D\+P\+\_\+\+D\+I\+S\+P3}}
+\index{D\+P\+\_\+\+D\+I\+S\+P3@{D\+P\+\_\+\+D\+I\+S\+P3}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+I\+S\+P3}{DP\_DISP3}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+I\+S\+P3~L\+A\+T\+Abits.\+L\+A5}
+
+
+
+Definici贸n en la l铆nea 53 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a047430db55a3f99e1193bcb38509fbf4}\label{Display7Segmentos_8h_a047430db55a3f99e1193bcb38509fbf4}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+I\+S\+P4@{D\+P\+\_\+\+D\+I\+S\+P4}}
+\index{D\+P\+\_\+\+D\+I\+S\+P4@{D\+P\+\_\+\+D\+I\+S\+P4}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+I\+S\+P4}{DP\_DISP4}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+I\+S\+P4~L\+A\+T\+Abits.\+L\+A4}
+
+
+
+Definici贸n en la l铆nea 52 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a5906f15756de8f01bc57c1f8803d013f}\label{Display7Segmentos_8h_a5906f15756de8f01bc57c1f8803d013f}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+D\+OT@{D\+P\+\_\+\+D\+OT}}
+\index{D\+P\+\_\+\+D\+OT@{D\+P\+\_\+\+D\+OT}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+D\+OT}{DP\_DOT}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+D\+OT~L\+A\+T\+Ebits.\+L\+E2}
+
+
+
+Definici贸n en la l铆nea 62 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a5ca40760822b7225232a2438151c9e7e}\label{Display7Segmentos_8h_a5ca40760822b7225232a2438151c9e7e}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA}}
+\index{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA}{DP\_SEGMENTOA}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OA~L\+A\+T\+Abits.\+L\+A0}
+
+
+
+Definici贸n en la l铆nea 58 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a65759c7793e1b2b1525f288fcff151e3}\label{Display7Segmentos_8h_a65759c7793e1b2b1525f288fcff151e3}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB}}
+\index{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB}{DP\_SEGMENTOB}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OB~L\+A\+T\+Abits.\+L\+A1}
+
+
+
+Definici贸n en la l铆nea 59 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a18204a3cce46b4034c80eb413bb78ef0}\label{Display7Segmentos_8h_a18204a3cce46b4034c80eb413bb78ef0}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC}}
+\index{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC}{DP\_SEGMENTOC}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OC~L\+A\+T\+Abits.\+L\+A2}
+
+
+
+Definici贸n en la l铆nea 60 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a83b47fac44e744fe583978dfb4d4a85a}\label{Display7Segmentos_8h_a83b47fac44e744fe583978dfb4d4a85a}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD}}
+\index{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD@{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD}{DP\_SEGMENTOD}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+S\+E\+G\+M\+E\+N\+T\+OD~L\+A\+T\+Abits.\+L\+A3}
+
+
+
+Definici贸n en la l铆nea 61 del archivo Display7\+Segmentos.\+h.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a664b6ba4767ee385ae6010587d9d8b9a}\label{Display7Segmentos_8h_a664b6ba4767ee385ae6010587d9d8b9a}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+T\+IC@{D\+P\+\_\+\+T\+IC}}
+\index{D\+P\+\_\+\+T\+IC@{D\+P\+\_\+\+T\+IC}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+T\+IC}{DP\_TIC}}
+{\footnotesize\ttfamily \#define D\+P\+\_\+\+T\+IC~5}
+
+
+
+Demora del barrido. 
+
+
+
+Definici贸n en la l铆nea 50 del archivo Display7\+Segmentos.\+h.
+
+
+
+\subsection{Documentaci贸n de las funciones}
+\mbox{\Hypertarget{Display7Segmentos_8h_a41b93045d294c7b52da4d1aa857383dd}\label{Display7Segmentos_8h_a41b93045d294c7b52da4d1aa857383dd}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+Barrido\+Display@{D\+P\+\_\+\+Barrido\+Display}}
+\index{D\+P\+\_\+\+Barrido\+Display@{D\+P\+\_\+\+Barrido\+Display}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+Barrido\+Display()}{DP\_BarridoDisplay()}}
+{\footnotesize\ttfamily void D\+P\+\_\+\+Barrido\+Display (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Realiza el barrido de los displays. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol醩 Exequiel Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+30 de septiembre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Par谩metros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definici贸n en la l铆nea 89 del archivo F\+W\+\_\+\+Display7\+Segmentos.\+c.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_ad93a0dc9bed0921da3a840880464fdc4}\label{Display7Segmentos_8h_ad93a0dc9bed0921da3a840880464fdc4}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+Display\+B\+CD@{D\+P\+\_\+\+Display\+B\+CD}}
+\index{D\+P\+\_\+\+Display\+B\+CD@{D\+P\+\_\+\+Display\+B\+CD}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+Display\+B\+C\+D()}{DP\_DisplayBCD()}}
+{\footnotesize\ttfamily void D\+P\+\_\+\+Display\+B\+CD (\begin{DoxyParamCaption}\item[{\hyperlink{Tdatos_8h_adf4d876453337156dde61095e1f20223}{uint16\+\_\+t}}]{valor,  }\item[{\hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t}}]{dsp }\end{DoxyParamCaption})}
+
+
+
+Definici贸n en la l铆nea 89 del archivo P\+R\+\_\+\+Display7\+Segmentos.\+c.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_a372f00db9001b490f7cec5e8d86b559b}\label{Display7Segmentos_8h_a372f00db9001b490f7cec5e8d86b559b}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+Tic@{D\+P\+\_\+\+Tic}}
+\index{D\+P\+\_\+\+Tic@{D\+P\+\_\+\+Tic}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+Tic()}{DP\_Tic()}}
+{\footnotesize\ttfamily void D\+P\+\_\+\+Tic (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Se encarga de la demora del barrido. 
+
+\begin{DoxyAuthor}{Autor}
+Nicol醩 Exequiel Ferragamo 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+30 de septiembre de 2019 
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Par谩metros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+Definici贸n en la l铆nea 136 del archivo F\+W\+\_\+\+Display7\+Segmentos.\+c.
+
+
+
+\subsection{Documentaci贸n de las variables}
+\mbox{\Hypertarget{Display7Segmentos_8h_a65e480a33e370b81cef253cb71d2a22b}\label{Display7Segmentos_8h_a65e480a33e370b81cef253cb71d2a22b}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+\+Delay@{D\+P\+\_\+\+Delay}}
+\index{D\+P\+\_\+\+Delay@{D\+P\+\_\+\+Delay}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+\+Delay}{DP\_Delay}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} D\+P\+\_\+\+Delay}
+
+
+
+Definici贸n en la l铆nea 64 del archivo F\+W\+\_\+\+Display7\+Segmentos.\+c.
+
+\mbox{\Hypertarget{Display7Segmentos_8h_ad2a45360f8387fbe8e885bb9f3114ea5}\label{Display7Segmentos_8h_ad2a45360f8387fbe8e885bb9f3114ea5}} 
+\index{Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}!D\+P\+\_\+msg\+Display@{D\+P\+\_\+msg\+Display}}
+\index{D\+P\+\_\+msg\+Display@{D\+P\+\_\+msg\+Display}!Display7\+Segmentos.\+h@{Display7\+Segmentos.\+h}}
+\subsubsection{\texorpdfstring{D\+P\+\_\+msg\+Display}{DP\_msgDisplay}}
+{\footnotesize\ttfamily volatile \hyperlink{Tdatos_8h_aba7bc1797add20fe3efdf37ced1182c5}{uint8\+\_\+t} D\+P\+\_\+msg\+Display\mbox{[}\hyperlink{Display7Segmentos_8h_a4a6bdb32c7783dae55095173319d52ab}{D\+P\+\_\+\+D\+I\+G\+I\+T\+OS}\mbox{]}}
+
+
+
+Definici贸n en la l铆nea 61 del archivo P\+R\+\_\+\+Display7\+Segmentos.\+c.
+

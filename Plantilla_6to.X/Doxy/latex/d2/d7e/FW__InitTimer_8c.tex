@@ -1,0 +1,90 @@
+\hypertarget{FW__InitTimer_8c}{}\section{Referencia del Archivo Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Timer.c}
+\label{FW__InitTimer_8c}\index{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Timer.\+c@{Firmware\+\_\+\+Init/\+F\+W\+\_\+\+Init\+Timer.\+c}}
+{\ttfamily \#include \char`\"{}F\+W\+\_\+\+Init\+Timer.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Tdatos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Base\+Board.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para F\+W\+\_\+\+Init\+Timer.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d06/FW__InitTimer_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{FW__InitTimer_8c_a4d368e642dbd363e361c8be19cd144eb}{Tmr0\+\_\+\+Init} (void)
+\begin{DoxyCompactList}\small\item\em Inicializacion del Tmr0. \end{DoxyCompactList}\item 
+void \hyperlink{FW__InitTimer_8c_aab6d953bdda9a04e181ae71ae072f95f}{Tmr1\+\_\+\+Init} (void)
+\begin{DoxyCompactList}\small\item\em Inicializacion del Tmr1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{FW__InitTimer_8c_a4d368e642dbd363e361c8be19cd144eb}\label{FW__InitTimer_8c_a4d368e642dbd363e361c8be19cd144eb}} 
+\index{F\+W\+\_\+\+Init\+Timer.\+c@{F\+W\+\_\+\+Init\+Timer.\+c}!Tmr0\+\_\+\+Init@{Tmr0\+\_\+\+Init}}
+\index{Tmr0\+\_\+\+Init@{Tmr0\+\_\+\+Init}!F\+W\+\_\+\+Init\+Timer.\+c@{F\+W\+\_\+\+Init\+Timer.\+c}}
+\subsubsection{\texorpdfstring{Tmr0\+\_\+\+Init()}{Tmr0\_Init()}}
+{\footnotesize\ttfamily Tmr0\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Inicializacion del Tmr0. 
+
+Inicializa el timer 0 en 8 bits, con el prescaler en 256 y con la interrupcion activada. Esta configurado para que interrumpa cada 1.\+0022ms \begin{DoxyAuthor}{Autor}
+I Esteban Lemos 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+Definición en la línea 67 del archivo F\+W\+\_\+\+Init\+Timer.\+c.
+
+Gráfico de llamadas a esta función\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{d2/d7e/FW__InitTimer_8c_a4d368e642dbd363e361c8be19cd144eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{FW__InitTimer_8c_aab6d953bdda9a04e181ae71ae072f95f}\label{FW__InitTimer_8c_aab6d953bdda9a04e181ae71ae072f95f}} 
+\index{F\+W\+\_\+\+Init\+Timer.\+c@{F\+W\+\_\+\+Init\+Timer.\+c}!Tmr1\+\_\+\+Init@{Tmr1\+\_\+\+Init}}
+\index{Tmr1\+\_\+\+Init@{Tmr1\+\_\+\+Init}!F\+W\+\_\+\+Init\+Timer.\+c@{F\+W\+\_\+\+Init\+Timer.\+c}}
+\subsubsection{\texorpdfstring{Tmr1\+\_\+\+Init()}{Tmr1\_Init()}}
+{\footnotesize\ttfamily Tmr1\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Inicializacion del Tmr1. 
+
+Inicializa el timer 0 en 8 bits, con el prescaler en 256 y con la interrupcion activada. Esta configurado para que interrumpa cada 99,96 uS \begin{DoxyAuthor}{Autor}
+I Esteban Lemos 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+
+\end{DoxyDate}
+
+\begin{DoxyParams}[1]{Parámetros}
+\mbox{\tt in}  & {\em void} & \\
+\hline
+\mbox{\tt out}  & {\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+void 
+\end{DoxyReturn}
+
+
+Definición en la línea 94 del archivo F\+W\+\_\+\+Init\+Timer.\+c.
+

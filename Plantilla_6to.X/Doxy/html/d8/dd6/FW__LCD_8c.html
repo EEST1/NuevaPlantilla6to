@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Plantilla_6to: Referencia del Archivo Firmware_Driver/FW_LCD.c</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Plantilla_6to
+   &#160;<span id="projectnumber">1.0.1</span>
+   </div>
+   <div id="projectbrief">Plantilla para el curso de AED de 6to año</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Buscar');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_d5e4ef3b0a89638588ae24d2df0c5230.html">Firmware_Driver</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">defines</a> &#124;
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo FW_LCD.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d93/FW__LCD_8h_source.html">FW_LCD.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Dependencia gráfica adjunta para FW_LCD.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/d3e/FW__LCD_8c__incl.png" border="0" usemap="#Firmware__Driver_2FW__LCD_8c" alt=""/></div>
+<map name="Firmware__Driver_2FW__LCD_8c" id="Firmware__Driver_2FW__LCD_8c">
+<area shape="rect" id="node2" href="../../d4/d93/FW__LCD_8h.html" title="FW_LCD.h" alt="" coords="69,95,157,121"/>
+<area shape="rect" id="node4" href="../../d1/d96/PR__LCD_8h.html" title="PR_LCD.h" alt="" coords="69,169,156,196"/>
+<area shape="rect" id="node6" href="../../d6/d3b/BaseBoard_8h.html" title="BaseBoard.h" alt="" coords="173,244,271,271"/>
+<area shape="rect" id="node5" href="../../d4/dd8/Tdatos_8h.html" title="Tdatos.h" alt="" coords="76,244,149,271"/>
+</map>
+</div>
+</div>
+<p><a href="../../d8/dd6/FW__LCD_8c_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+defines</h2></td></tr>
+<tr class="memitem:a27fc19637a3e83d6a1836349f57beeea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a27fc19637a3e83d6a1836349f57beeea">LCD_ENTRADA</a>&#160;&#160;&#160;0xF0</td></tr>
+<tr class="memdesc:a27fc19637a3e83d6a1836349f57beeea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Esto es para invertir el bus de datos y poder.  <a href="#a27fc19637a3e83d6a1836349f57beeea">Más...</a><br /></td></tr>
+<tr class="separator:a27fc19637a3e83d6a1836349f57beeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372d8466c4b1b318bca88c3d5a454262"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a372d8466c4b1b318bca88c3d5a454262">LCD_SALIDA</a>&#160;&#160;&#160;0x0F</td></tr>
+<tr class="memdesc:a372d8466c4b1b318bca88c3d5a454262"><td class="mdescLeft">&#160;</td><td class="mdescRight">leer cuando necesito ver si est� busy..  <a href="#a372d8466c4b1b318bca88c3d5a454262">Más...</a><br /></td></tr>
+<tr class="separator:a372d8466c4b1b318bca88c3d5a454262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dd1658e235f174d1cabae5c438943d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#ac8dd1658e235f174d1cabae5c438943d">LCD_BUSY</a>&#160;&#160;&#160;PORTDbits.RD7</td></tr>
+<tr class="memdesc:ac8dd1658e235f174d1cabae5c438943d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Con estos defines me abstraigo del hardware.  <a href="#ac8dd1658e235f174d1cabae5c438943d">Más...</a><br /></td></tr>
+<tr class="separator:ac8dd1658e235f174d1cabae5c438943d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7fe5d669c432901d21fef38c9743dfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#ae7fe5d669c432901d21fef38c9743dfe">LCD_BUS_DIR</a>&#160;&#160;&#160;TRISD</td></tr>
+<tr class="separator:ae7fe5d669c432901d21fef38c9743dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac80e54c3d1d3592462eb30e6cac6ca6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#aac80e54c3d1d3592462eb30e6cac6ca6">LCD_TRUE</a>&#160;&#160;&#160;0x1</td></tr>
+<tr class="separator:aac80e54c3d1d3592462eb30e6cac6ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9719ec9752a485662fafc37d1d54f98e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a9719ec9752a485662fafc37d1d54f98e">LCD_FALSE</a>&#160;&#160;&#160;0x0</td></tr>
+<tr class="separator:a9719ec9752a485662fafc37d1d54f98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a72115baa02a7c5fb1c015ac3cea2308d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a72115baa02a7c5fb1c015ac3cea2308d">LCD_ReadBusy</a> (void)</td></tr>
+<tr class="separator:a72115baa02a7c5fb1c015ac3cea2308d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbf68ce3dbf3821499c9b5106838700"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a8dbf68ce3dbf3821499c9b5106838700">LCD_WriteCMD</a> (<a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> comando)</td></tr>
+<tr class="separator:a8dbf68ce3dbf3821499c9b5106838700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b64783f3a2f265b3bda0b9d92d7d89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#aa0b64783f3a2f265b3bda0b9d92d7d89">LCD_Write</a> (<a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> dato)</td></tr>
+<tr class="memdesc:aa0b64783f3a2f265b3bda0b9d92d7d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se encarga de escribir un dato en bus de a un nibble por vez.  <a href="#aa0b64783f3a2f265b3bda0b9d92d7d89">Más...</a><br /></td></tr>
+<tr class="separator:aa0b64783f3a2f265b3bda0b9d92d7d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ced9cb01df0ef6d721dec73ae29b11b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a5ced9cb01df0ef6d721dec73ae29b11b">LCD_WriteData</a> (<a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> dato)</td></tr>
+<tr class="separator:a5ced9cb01df0ef6d721dec73ae29b11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d705e44e019897df3cf52334f6d2083"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a9d705e44e019897df3cf52334f6d2083">LCD_TicLCD</a> (void)</td></tr>
+<tr class="memdesc:a9d705e44e019897df3cf52334f6d2083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rutina necesaria para el fncionamiento del m�dulo.  <a href="#a9d705e44e019897df3cf52334f6d2083">Más...</a><br /></td></tr>
+<tr class="separator:a9d705e44e019897df3cf52334f6d2083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3dd55c3be6a5452edf6e1d8b8b90213f"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd6/FW__LCD_8c.html#a3dd55c3be6a5452edf6e1d8b8b90213f">LCD_Tout</a> = 0</td></tr>
+<tr class="separator:a3dd55c3be6a5452edf6e1d8b8b90213f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de los 'defines'</h2>
+<a id="ae7fe5d669c432901d21fef38c9743dfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7fe5d669c432901d21fef38c9743dfe">&#9670;&nbsp;</a></span>LCD_BUS_DIR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_BUS_DIR&#160;&#160;&#160;TRISD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00048">48</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="ac8dd1658e235f174d1cabae5c438943d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8dd1658e235f174d1cabae5c438943d">&#9670;&nbsp;</a></span>LCD_BUSY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_BUSY&#160;&#160;&#160;PORTDbits.RD7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Con estos defines me abstraigo del hardware. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00047">47</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="a27fc19637a3e83d6a1836349f57beeea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fc19637a3e83d6a1836349f57beeea">&#9670;&nbsp;</a></span>LCD_ENTRADA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_ENTRADA&#160;&#160;&#160;0xF0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Esto es para invertir el bus de datos y poder. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00045">45</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="a9719ec9752a485662fafc37d1d54f98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9719ec9752a485662fafc37d1d54f98e">&#9670;&nbsp;</a></span>LCD_FALSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_FALSE&#160;&#160;&#160;0x0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00051">51</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="a372d8466c4b1b318bca88c3d5a454262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372d8466c4b1b318bca88c3d5a454262">&#9670;&nbsp;</a></span>LCD_SALIDA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_SALIDA&#160;&#160;&#160;0x0F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>leer cuando necesito ver si est� busy.. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00046">46</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="aac80e54c3d1d3592462eb30e6cac6ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac80e54c3d1d3592462eb30e6cac6ca6">&#9670;&nbsp;</a></span>LCD_TRUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_TRUE&#160;&#160;&#160;0x1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00050">50</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a72115baa02a7c5fb1c015ac3cea2308d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72115baa02a7c5fb1c015ac3cea2308d">&#9670;&nbsp;</a></span>LCD_ReadBusy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LCD_ReadBusy </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00095">95</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dd6/FW__LCD_8c_a72115baa02a7c5fb1c015ac3cea2308d_icgraph.png" border="0" usemap="#d8/dd6/FW__LCD_8c_a72115baa02a7c5fb1c015ac3cea2308d_icgraph" alt=""/></div>
+<map name="d8/dd6/FW__LCD_8c_a72115baa02a7c5fb1c015ac3cea2308d_icgraph" id="d8/dd6/FW__LCD_8c_a72115baa02a7c5fb1c015ac3cea2308d_icgraph">
+<area shape="rect" id="node2" href="../../dd/d90/FW__InitLCD_8c.html#aa53c9d40f3aa552a9974cd55ac510cb3" title="Inicializa el LCD para el shield 2. " alt="" coords="193,5,267,32"/>
+<area shape="rect" id="node3" href="../../db/d25/PR__LCD_8c.html#a0ef307c21b4f8ffe35c58585496666d4" title="Envia un carater al LCD. " alt="" coords="171,56,289,83"/>
+<area shape="rect" id="node5" href="../../db/d25/PR__LCD_8c.html#a1d63cf070d83b4ee8c0bc5486183d573" title="Envia un string al LCD. " alt="" coords="173,107,287,133"/>
+<area shape="rect" id="node6" href="../../db/d25/PR__LCD_8c.html#ae60d0b62d7eb3fa31266c095d7b3c245" title="Borra el LCD. " alt="" coords="187,157,273,184"/>
+<area shape="rect" id="node7" href="../../db/d25/PR__LCD_8c.html#aa802b755d26047d28a9d08cc78b309af" title="Regresa el curor al inicio. " alt="" coords="174,208,286,235"/>
+<area shape="rect" id="node8" href="../../db/d25/PR__LCD_8c.html#abb097c738d88dfa19fad30e7c7fd2c91" title="Ubica el cursor en una posición determinada. " alt="" coords="173,259,287,285"/>
+<area shape="rect" id="node9" href="../../db/d25/PR__LCD_8c.html#a40609a113bdff1476fcda8e8232c9f04" title="Desplaza al LCD a la izq. " alt="" coords="174,309,286,336"/>
+<area shape="rect" id="node4" href="../../dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="337,56,461,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9d705e44e019897df3cf52334f6d2083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d705e44e019897df3cf52334f6d2083">&#9670;&nbsp;</a></span>LCD_TicLCD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LCD_TicLCD </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rutina necesaria para el fncionamiento del m�dulo. </p>
+<p>Esta rutina se debe llama desde la interrupci�n de timer cada 1mS </p><dl class="section author"><dt>Autor</dt><dd>Esteban Lemos </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd></dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00172">172</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+<a id="aa0b64783f3a2f265b3bda0b9d92d7d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0b64783f3a2f265b3bda0b9d92d7d89">&#9670;&nbsp;</a></span>LCD_Write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LCD_Write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>dato</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se encarga de escribir un dato en bus de a un nibble por vez. </p>
+<p>Se encarga de escribir un dato en bus de a un nibble por vez para poder trabajar en 4 bits. </p><dl class="section author"><dt>Autor</dt><dd>Esteban Lemos </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd></dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Recive</td><td>el dato a enviar al LCD </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00138">138</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dd6/FW__LCD_8c_aa0b64783f3a2f265b3bda0b9d92d7d89_icgraph.png" border="0" usemap="#d8/dd6/FW__LCD_8c_aa0b64783f3a2f265b3bda0b9d92d7d89_icgraph" alt=""/></div>
+<map name="d8/dd6/FW__LCD_8c_aa0b64783f3a2f265b3bda0b9d92d7d89_icgraph" id="d8/dd6/FW__LCD_8c_aa0b64783f3a2f265b3bda0b9d92d7d89_icgraph">
+<area shape="rect" id="node2" href="../../d8/dd6/FW__LCD_8c.html#a8dbf68ce3dbf3821499c9b5106838700" title="LCD_WriteCMD" alt="" coords="140,157,259,184"/>
+<area shape="rect" id="node9" href="../../d8/dd6/FW__LCD_8c.html#a5ced9cb01df0ef6d721dec73ae29b11b" title="LCD_WriteData" alt="" coords="142,309,257,336"/>
+<area shape="rect" id="node3" href="../../dd/d90/FW__InitLCD_8c.html#aa53c9d40f3aa552a9974cd55ac510cb3" title="Inicializa el LCD para el shield 2. " alt="" coords="329,5,403,32"/>
+<area shape="rect" id="node4" href="../../dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="473,183,597,209"/>
+<area shape="rect" id="node5" href="../../db/d25/PR__LCD_8c.html#ae60d0b62d7eb3fa31266c095d7b3c245" title="Borra el LCD. " alt="" coords="323,107,409,133"/>
+<area shape="rect" id="node6" href="../../db/d25/PR__LCD_8c.html#aa802b755d26047d28a9d08cc78b309af" title="Regresa el curor al inicio. " alt="" coords="310,157,422,184"/>
+<area shape="rect" id="node7" href="../../db/d25/PR__LCD_8c.html#abb097c738d88dfa19fad30e7c7fd2c91" title="Ubica el cursor en una posición determinada. " alt="" coords="309,208,423,235"/>
+<area shape="rect" id="node8" href="../../db/d25/PR__LCD_8c.html#a40609a113bdff1476fcda8e8232c9f04" title="Desplaza al LCD a la izq. " alt="" coords="310,259,422,285"/>
+<area shape="rect" id="node10" href="../../db/d25/PR__LCD_8c.html#a0ef307c21b4f8ffe35c58585496666d4" title="Envia un carater al LCD. " alt="" coords="307,309,425,336"/>
+<area shape="rect" id="node11" href="../../db/d25/PR__LCD_8c.html#a1d63cf070d83b4ee8c0bc5486183d573" title="Envia un string al LCD. " alt="" coords="309,360,423,387"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8dbf68ce3dbf3821499c9b5106838700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dbf68ce3dbf3821499c9b5106838700">&#9670;&nbsp;</a></span>LCD_WriteCMD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LCD_WriteCMD </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>comando</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00122">122</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dd6/FW__LCD_8c_a8dbf68ce3dbf3821499c9b5106838700_icgraph.png" border="0" usemap="#d8/dd6/FW__LCD_8c_a8dbf68ce3dbf3821499c9b5106838700_icgraph" alt=""/></div>
+<map name="d8/dd6/FW__LCD_8c_a8dbf68ce3dbf3821499c9b5106838700_icgraph" id="d8/dd6/FW__LCD_8c_a8dbf68ce3dbf3821499c9b5106838700_icgraph">
+<area shape="rect" id="node2" href="../../dd/d90/FW__InitLCD_8c.html#aa53c9d40f3aa552a9974cd55ac510cb3" title="Inicializa el LCD para el shield 2. " alt="" coords="197,5,271,32"/>
+<area shape="rect" id="node3" href="../../dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="172,56,296,83"/>
+<area shape="rect" id="node4" href="../../db/d25/PR__LCD_8c.html#ae60d0b62d7eb3fa31266c095d7b3c245" title="Borra el LCD. " alt="" coords="191,107,277,133"/>
+<area shape="rect" id="node5" href="../../db/d25/PR__LCD_8c.html#aa802b755d26047d28a9d08cc78b309af" title="Regresa el curor al inicio. " alt="" coords="178,157,290,184"/>
+<area shape="rect" id="node6" href="../../db/d25/PR__LCD_8c.html#abb097c738d88dfa19fad30e7c7fd2c91" title="Ubica el cursor en una posición determinada. " alt="" coords="177,208,291,235"/>
+<area shape="rect" id="node7" href="../../db/d25/PR__LCD_8c.html#a40609a113bdff1476fcda8e8232c9f04" title="Desplaza al LCD a la izq. " alt="" coords="178,259,290,285"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5ced9cb01df0ef6d721dec73ae29b11b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ced9cb01df0ef6d721dec73ae29b11b">&#9670;&nbsp;</a></span>LCD_WriteData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LCD_WriteData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>dato</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00157">157</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dd6/FW__LCD_8c_a5ced9cb01df0ef6d721dec73ae29b11b_icgraph.png" border="0" usemap="#d8/dd6/FW__LCD_8c_a5ced9cb01df0ef6d721dec73ae29b11b_icgraph" alt=""/></div>
+<map name="d8/dd6/FW__LCD_8c_a5ced9cb01df0ef6d721dec73ae29b11b_icgraph" id="d8/dd6/FW__LCD_8c_a5ced9cb01df0ef6d721dec73ae29b11b_icgraph">
+<area shape="rect" id="node2" href="../../db/d25/PR__LCD_8c.html#a0ef307c21b4f8ffe35c58585496666d4" title="Envia un carater al LCD. " alt="" coords="168,5,287,32"/>
+<area shape="rect" id="node4" href="../../db/d25/PR__LCD_8c.html#a1d63cf070d83b4ee8c0bc5486183d573" title="Envia un string al LCD. " alt="" coords="170,56,285,83"/>
+<area shape="rect" id="node3" href="../../dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="335,5,459,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las variables</h2>
+<a id="a3dd55c3be6a5452edf6e1d8b8b90213f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd55c3be6a5452edf6e1d8b8b90213f">&#9670;&nbsp;</a></span>LCD_Tout</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile <a class="el" href="../../d4/dd8/Tdatos_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> LCD_Tout = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html#l00068">68</a> del archivo <a class="el" href="../../d8/dd6/FW__LCD_8c_source.html">FW_LCD.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
