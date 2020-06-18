@@ -1,8 +1,0 @@
-<map id="inc/FW_Teclado.h" name="inc/FW_Teclado.h">
-<area shape="rect" id="node2" href="$df/daa/FW__Teclado_8c.html" title="Firmware_Driver/FW\l_Teclado.c" alt="" coords="5,80,148,121"/>
-<area shape="rect" id="node3" href="$dd/d9d/FW__InitTeclado_8c.html" title="Firmware_Init/FW_InitTeclado.c" alt="" coords="173,87,381,114"/>
-<area shape="rect" id="node4" href="$d4/da4/Aplicacion_8h.html" title="inc/Aplicacion.h" alt="" coords="405,87,519,114"/>
-<area shape="rect" id="node7" href="$da/d88/PR__Teclado_8c.html" title="Primitivas/PR_Teclado.c" alt="" coords="544,87,711,114"/>
-<area shape="rect" id="node5" href="$d8/db4/Aplicacion_8c.html" title="Aplicacion/Aplicacion.c" alt="" coords="317,169,474,196"/>
-<area shape="rect" id="node6" href="$d0/d29/main_8c.html" title="main.c" alt="" coords="498,169,559,196"/>
-</map>

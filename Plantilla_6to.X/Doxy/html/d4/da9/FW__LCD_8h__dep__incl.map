@@ -1,8 +1,0 @@
-<map id="inc/FW_LCD.h" name="inc/FW_LCD.h">
-<area shape="rect" id="node2" href="$d8/dd6/FW__LCD_8c.html" title="Firmware_Driver/FW\l_LCD.c" alt="" coords="5,80,148,121"/>
-<area shape="rect" id="node3" href="$dd/d90/FW__InitLCD_8c.html" title="Firmware_Init/FW_InitLCD.c" alt="" coords="173,87,362,114"/>
-<area shape="rect" id="node4" href="$d4/da4/Aplicacion_8h.html" title="inc/Aplicacion.h" alt="" coords="386,87,501,114"/>
-<area shape="rect" id="node7" href="$db/d25/PR__LCD_8c.html" title="Primitivas/PR_LCD.c" alt="" coords="525,87,673,114"/>
-<area shape="rect" id="node5" href="$d8/db4/Aplicacion_8c.html" title="Aplicacion/Aplicacion.c" alt="" coords="298,169,455,196"/>
-<area shape="rect" id="node6" href="$d0/d29/main_8c.html" title="main.c" alt="" coords="479,169,541,196"/>
-</map>

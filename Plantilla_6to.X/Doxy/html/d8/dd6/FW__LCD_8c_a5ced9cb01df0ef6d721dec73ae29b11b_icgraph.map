@@ -1,5 +1,0 @@
-<map id="LCD_WriteData" name="LCD_WriteData">
-<area shape="rect" id="node2" href="$db/d25/PR__LCD_8c.html#a0ef307c21b4f8ffe35c58585496666d4" title="Envia un carater al LCD. " alt="" coords="168,5,287,32"/>
-<area shape="rect" id="node4" href="$db/d25/PR__LCD_8c.html#a1d63cf070d83b4ee8c0bc5486183d573" title="Envia un string al LCD. " alt="" coords="170,56,285,83"/>
-<area shape="rect" id="node3" href="$dd/d90/FW__InitLCD_8c.html#ac8e88178400aaa1fc99c546c2317be14" title="Inicializa los caracteres de la CGRAM para el shield 2. " alt="" coords="335,5,459,32"/>
-</map>
